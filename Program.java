@@ -1,6 +1,7 @@
 
 public class Program
 {
+	Window window;
 	Program()
 	{
 		
