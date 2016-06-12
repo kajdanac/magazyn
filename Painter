@@ -16,7 +16,7 @@ public class Painter extends JComponent
 		{
 			background = ImageIO.read(getClass().getResource("/art/bacground.png"));
 			forklift = ImageIO.read(getClass().getResource("/art/forklift.png"));
-			truck = ImageIO.read(getClass().getResource("/art/forklift.png"));
+			truck = ImageIO.read(getClass().getResource("/art/truck.png"));
 		} catch (IOException e)
 		{
 			// TODO Auto-generated catch block
