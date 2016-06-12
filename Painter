@@ -1,1 +1,26 @@
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 
+import javax.imageio.ImageIO;
+import javax.swing.JComponent;
+
+public class Painter extends JComponent
+{
+	
+	BufferedImage background;
+	BufferedImage forklift;
+	BufferedImage truck;
+	Painter()
+	{
+		try
+		{
+			background = ImageIO.read(getClass().getResource("/art/bacground.png"));
+			forklift = ImageIO.read(getClass().getResource("/art/forklift.png"));
+			truck = ImageIO.read(getClass().getResource("/art/forklift.png"));
+		} catch (IOException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
