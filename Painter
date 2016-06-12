@@ -6,7 +6,7 @@ import javax.swing.JComponent;
 
 public class Painter extends JComponent
 {
-	
+	private static final long serialVersionUID = -4753003394230538958L;
 	BufferedImage background;
 	BufferedImage forklift;
 	BufferedImage truck;
